@@ -1,0 +1,13 @@
+torch
+transformers
+datasets 
+evaluate 
+accelerate 
+timm
+ipykernel
+ipywidgets
+IProgress
+streamlit
+faiss-cpu
+bs4
+termcolor

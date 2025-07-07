@@ -1,0 +1,90 @@
+{
+  "builder_name": "json",
+  "citation": "",
+  "config_name": "default",
+  "dataset_name": "law-stack_exchange",
+  "dataset_size": 95966652,
+  "description": "",
+  "download_checksums": {
+    "hf://datasets/ymoslem/Law-StackExchange@6a14705b78e1c59ea0346ad8e05428b783f9da09/law-stackexchange-questions-answers.json": {
+      "num_bytes": 106154624,
+      "checksum": null
+    }
+  },
+  "download_size": 106154624,
+  "features": {
+    "question_title": {
+      "dtype": "string",
+      "_type": "Value"
+    },
+    "score": {
+      "dtype": "int64",
+      "_type": "Value"
+    },
+    "link": {
+      "dtype": "string",
+      "_type": "Value"
+    },
+    "question_body": {
+      "dtype": "string",
+      "_type": "Value"
+    },
+    "answers": {
+      "answer_id": {
+        "dtype": "int64",
+        "_type": "Value"
+      },
+      "body": {
+        "dtype": "string",
+        "_type": "Value"
+      },
+      "score": {
+        "dtype": "int64",
+        "_type": "Value"
+      }
+    },
+    "tags": {
+      "feature": {
+        "dtype": "string",
+        "_type": "Value"
+      },
+      "_type": "Sequence"
+    },
+    "text": {
+      "dtype": "string",
+      "_type": "Value"
+    },
+    "answer_score": {
+      "dtype": "int64",
+      "_type": "Value"
+    },
+    "question_score": {
+      "dtype": "int64",
+      "_type": "Value"
+    },
+    "embedding": {
+      "feature": {
+        "dtype": "float32",
+        "_type": "Value"
+      },
+      "_type": "Sequence"
+    }
+  },
+  "homepage": "",
+  "license": "",
+  "size_in_bytes": 202121276,
+  "splits": {
+    "train": {
+      "name": "train",
+      "num_bytes": 95966652,
+      "num_examples": 24370,
+      "dataset_name": "law-stack_exchange"
+    }
+  },
+  "version": {
+    "version_str": "0.0.0",
+    "major": 0,
+    "minor": 0,
+    "patch": 0
+  }
+}
