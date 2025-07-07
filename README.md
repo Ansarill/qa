@@ -98,16 +98,14 @@ scores, samples = embedding_dataset.get_nearest_examples("embedding", query_embe
 
 1. Clone repository:
 ```bash
-git clone https://github.com/Ansarill/qa
-cd qa
+git clone https://github.com/Ansarill/poetry.git
+cd poetry
 ```
-
-2. Create virtual environment:
+2. Create virtual env (**Python 3.10.12**):
 ```bash
-python -m venv qa_env
-source qa_env/bin/activate
+python3.10 -m venv my_env
+source my_env/bin/activate
 ```
-
 3. Install dependencies:
 ```bash
 pip install -r requirements.txt
